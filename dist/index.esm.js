@@ -2336,7 +2336,6 @@ var PanelBody = function (_a) {
 var templateObject_1$9;
 
 var Icons = IconModule;
-Icons.MoonIcon; Icons.SunIcon; Icons.LanguageIcon;
 var Container = styled.div(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"], ["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"])), function (_a) {
     var theme = _a.theme;
     return theme.nav.background;
@@ -2804,14 +2803,14 @@ var baseColors = {
     primary: "#E2FAFC",
     primaryBright: "#80ed99",
     primaryDark: "#2d6a4f",
-    secondary: "#E2FAFC",
+    secondary: "#b77e52",
     success: "#9B9694",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#40916c",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#e6fbff", backgroundDisabled: "#d2f4fa", contrast: "#d2f4fa", invertedContrast: "#eef9fa", input: "#80ceed", tertiary: "#EFF4F5", text: "#04210a", textDisabled: "#a4a9ab", textSubtle: "#1C1B21", borderColor: "#5778cc", card: "#dbf7ff", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#000000", backgroundDisabled: "#E9EAEB", contrast: "#b77e52", invertedContrast: "#261e13", input: "#916440", tertiary: "#75512f", text: "#E2FAFC", textDisabled: "#898d8f", textSubtle: "#1C1B21", borderColor: "#524B63", card: "#1C1B21", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#1df500", background: "#000000", backgroundDisabled: "#E9EAEB", contrast: "#b77e52", invertedContrast: "#261e13", input: "#916440", primaryDark: "#F2DA91", tertiary: "#75512f", text: "#E2FAFC", textDisabled: "#898d8f", textSubtle: "#d8f3f3", borderColor: "#524B63", card: "#1C1B21", gradients: {
