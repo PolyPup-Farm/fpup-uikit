@@ -2398,7 +2398,7 @@ var Panel = function (props) {
         React.createElement(StyledImage, null,
             React.createElement("a", { href: "https://paladinsec.co/projects/polypup-finance/", target: "_blank", rel: "noreferrer" },
                 React.createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "200px" })),
-            React.createElement("a", { href: "https://ftm.farmscan.io/address/0xA2076b8EE26adc8d724896674E61777E88Fb7928", target: "_blank", rel: "noreferrer" },
+            React.createElement("a", { href: "https://ftm.farmscan.io/address/0xCFD389eFCD11aB30933F46e493da08cE5ebAf233", target: "_blank", rel: "noreferrer" },
                 React.createElement("img", { src: "https://ftm.farmscan.io/img/farmscan-ftm-badge.c79f313d.svg", width: "200px", alt: "FarmScan" }))),
         React.createElement(PanelFooter, __assign({}, props))));
 };
