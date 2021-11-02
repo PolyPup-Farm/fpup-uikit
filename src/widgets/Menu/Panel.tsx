@@ -49,8 +49,8 @@ const Panel: React.FC<Props> = (props) => {
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
       <StyledImage>
-        <a href="https://ftm.farmscan.io" target="_blank" rel="noreferrer"><img src="https://ftm.farmscan.io/img/farmscan-ftm-badge.c79f313d.svg" width="200px" alt="FarmScan" /></a>
-        <a href="https://paladinsec.co/projects/polypup-collar/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="200px" /></a>
+        <a href="https://paladinsec.co/projects/polypup-finance/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="200px" /></a>
+        <a href="https://ftm.farmscan.io/address/0xA2076b8EE26adc8d724896674E61777E88Fb7928" target="_blank" rel="noreferrer"><img src="https://ftm.farmscan.io/img/farmscan-ftm-badge.c79f313d.svg" width="200px" alt="FarmScan" /></a>
       </StyledImage>
       <PanelFooter {...props} />
     </StyledPanel>

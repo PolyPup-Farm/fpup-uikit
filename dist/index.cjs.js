@@ -2409,10 +2409,10 @@ var Panel = function (props) {
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
         React__default['default'].createElement(StyledImage, null,
-            React__default['default'].createElement("a", { href: "https://ftm.farmscan.io", target: "_blank", rel: "noreferrer" },
-                React__default['default'].createElement("img", { src: "https://ftm.farmscan.io/img/farmscan-ftm-badge.c79f313d.svg", width: "200px", alt: "FarmScan" })),
-            React__default['default'].createElement("a", { href: "https://paladinsec.co/projects/polypup-collar/", target: "_blank", rel: "noreferrer" },
-                React__default['default'].createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "200px" }))),
+            React__default['default'].createElement("a", { href: "https://paladinsec.co/projects/polypup-finance/", target: "_blank", rel: "noreferrer" },
+                React__default['default'].createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "200px" })),
+            React__default['default'].createElement("a", { href: "https://ftm.farmscan.io/address/0xA2076b8EE26adc8d724896674E61777E88Fb7928", target: "_blank", rel: "noreferrer" },
+                React__default['default'].createElement("img", { src: "https://ftm.farmscan.io/img/farmscan-ftm-badge.c79f313d.svg", width: "200px", alt: "FarmScan" }))),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$7, templateObject_2$3;
