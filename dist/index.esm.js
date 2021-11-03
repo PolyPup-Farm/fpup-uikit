@@ -2396,6 +2396,8 @@ var Panel = function (props) {
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
         React.createElement(StyledImage, null,
+            React.createElement("a", { href: "https://rugdoc.io/project/fantom-pup-farm/", target: "_blank", rel: "noreferrer" },
+                React.createElement("img", { src: "https://ball.polypup.finance/images/rugdoc-kycd.png", width: "200px" })),
             React.createElement("a", { href: "https://paladinsec.co/projects/polypup-finance/", target: "_blank", rel: "noreferrer" },
                 React.createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "200px" })),
             React.createElement("a", { href: "https://ftm.farmscan.io/address/0xCFD389eFCD11aB30933F46e493da08cE5ebAf233", target: "_blank", rel: "noreferrer" },
